@@ -9,10 +9,6 @@
     background-color: lightgray;
     padding-left: 10%;
 }
-/* .principal{
-    grid-area: principal;
-    color: gray;
-} */
 .pie{
     grid-area: pie;
     background-color: white;
@@ -30,11 +26,8 @@
     'menu-principal cuerpo1' 
     'menu-principal cuerpo1' 
     'pie pie';
-    /* grid-template-columns: repeat(minmax(150px, 150px) auto-fit); */
     grid-template-columns: 15% 1fr;
     grid-template-rows: auto-fit auto-fit;
-    /* height: 80vh;
-    width: 90vw; */
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
